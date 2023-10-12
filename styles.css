@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.inside {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header.container {
+    background-color: #1F2937;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav.logo.text {
+    color: #F9FAF8;
+    margin-right: auto;
+    padding-left: 40px;
+}
+
+a:visited {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.nav.links {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+.hero.container {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.hero.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 1 0px;
+}
+
+.hero.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #e5e7eb;
+    flex: 1 1 0px;
+}
+
+.hero.main.text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
