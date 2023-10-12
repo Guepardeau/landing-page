@@ -17,6 +17,10 @@
     background-color: #1F2937;
 }
 
+.main.container {
+    background-color: white;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -82,4 +86,36 @@ button {
     color: #F9FAF8;
     border-radius: 10px;
     border: 5px solid #3882f6;
+}
+
+/*  */
+.main.header {
+    padding: 30px;
+    text-align: center;
+}
+
+.main.content.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main.content.one, .main.content.two, .main.content.three, .main.content.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main.content.image {
+    width: 144px;
+    height: 144px;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+}
+
+.main.content.text {
+    flex: 1 1 0px;
+    max-width: 150px;
+    text-align: center;
 }
