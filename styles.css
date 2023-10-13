@@ -99,6 +99,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding: 50px;
 }
 
 .main.content.one, .main.content.two, .main.content.three, .main.content.four {
@@ -118,4 +119,80 @@ button {
     flex: 1 1 0px;
     max-width: 150px;
     text-align: center;
+}
+
+/*  */
+
+.quote.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.quote.text {
+    margin: auto;
+    padding: 50px 0px 0px 0px;
+    width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote.info.text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: -40px;
+}
+
+/*  */
+
+.action.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+}
+
+.action.content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 5px solid #3882f6;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.action.heading {
+    color: #F9FAF8;
+}
+
+.action.text {
+    color: #e5e7eb;
+    margin-top: -20px;
+}
+
+.action.button {
+    border: 2px solid white;
+    border-radius: 5px;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.action.left {
+
+
+}
+
+.action.right {
+    margin: auto;
 }
