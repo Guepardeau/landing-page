@@ -33,6 +33,10 @@
     padding-left: 40px;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:visited {
     color: #e5e7eb;
     text-decoration: none;
@@ -186,11 +190,6 @@ button {
     border-radius: 5px;
     color: #F9FAF8;
     text-align: center;
-}
-
-.action.left {
-
-
 }
 
 .action.right {
