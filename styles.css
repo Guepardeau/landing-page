@@ -196,3 +196,15 @@ button {
 .action.right {
     margin: auto;
 }
+
+.copyright {
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
